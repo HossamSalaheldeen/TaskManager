@@ -1,0 +1,29 @@
+.addcontainer {
+    background-color: rgba(128, 128, 128, 0.315);
+    width: 900px;
+    margin: 20px auto;
+}
+
+.addcontainer input{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.addcontainer textarea{
+    font-size: 20px;
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+
+.btn {
+    font-size: 30px;
+    font-weight: bold; 
+    width: 150px;
+}
+    
+.btn:not(.btn-primary) {
+    margin: 20px;
+    
+}

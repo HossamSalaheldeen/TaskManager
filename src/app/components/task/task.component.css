@@ -1,0 +1,29 @@
+.taskcontainer {
+    background-color: rgba(128, 128, 128, 0.315);
+    width: 900px;
+    margin: 20px auto;
+}
+
+.taskcontainer input{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.taskcontainer textarea{
+    font-size: 20px;
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+
+.btn {
+    font-size: 30px;
+    font-weight: bold; 
+    width: 150px;
+}
+    
+.btn:not(:first-child) {
+    margin: 20px;
+    
+}

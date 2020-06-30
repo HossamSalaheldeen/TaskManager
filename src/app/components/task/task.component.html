@@ -1,0 +1,17 @@
+<div class="taskcontainer">
+    <div *ngIf="!taskId">
+        <p class="alert alert-danger">there is no task</p>
+    </div>
+    
+    <div *ngIf="taskId">
+        <input #tasktitle type="text" class="form-control" placeholder="Task title" [(ngModel)]="task.title">
+        <textarea #taskdec class="form-control" placeholder="Task description" [(ngModel)]="task.description"></textarea>
+        <button class="btn btn-primary" (click)="saveTask()">Save</button>
+        <button class="btn btn-danger" (click)="deleteTask()">Delete</button>
+        <button class="btn btn-danger" routerLink="/"  >Cancel</button>
+    </div>
+</div>
+
+
+
+
